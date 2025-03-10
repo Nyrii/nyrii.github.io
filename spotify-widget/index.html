@@ -1,0 +1,44 @@
+<!doctype html>
+
+<head>
+  <title>Spotify Widget</title>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" href="./style.css" />
+  <script
+    src="https://cdn.socket.io/4.7.5/socket.io.min.js"
+    integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO"
+    crossorigin="anonymous"
+  ></script>
+</head>
+
+<body>
+  <div id="statusContainer">Connecting...</div>
+  <div id="mainContainer">
+    <div id="albumArtBox">
+      <img id="albumArt" src="images/theweeknd-trilogy.png" />
+      <img id="albumArtBack" src="images/theweeknd-trilogy-back.png" />
+    </div>
+    <div id="songInfoBox">
+      <div id="songInfo">
+        <div id="IAmRunningOutOfNamesForTheseBoxes">
+          <div id="songLabel">High For This</div>
+          <div id="artistLabel">The Weeknd</div>
+          <div id="times">
+            <div id="progressTime">1:19</div>
+            <div id="timeRemaining">4:07</div>
+          </div>
+          <div id="progressBg">
+            <div id="progressBar"></div>
+          </div>
+        </div>
+      </div>
+      <div id="backgroundArt">
+        <img id="backgroundImage" src="images/theweeknd-trilogy.png" />
+        <img id="backgroundImageBack" src="images/theweeknd-trilogy-back.png" />
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="./script.js"></script>
