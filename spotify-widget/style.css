@@ -42,7 +42,7 @@ body {
   position: absolute;
   height: var(--album-art-size);
   margin: 20px;
-  filter: drop-shadow(15px 15px 7px rgba(0, 0, 0, 1));
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 1));
   width: 100%;
   max-width: 500px;
   bottom: calc(50% - 20px);
